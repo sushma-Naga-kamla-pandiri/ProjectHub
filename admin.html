@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="C:\\web development coign\\bootstrap-4.4.1-dist\\css\\bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="media">
+    <div class="media-left">
+      <img src="C:\Users\SRINIVAS\Desktop\projecthub\download.png" alt="Cinque Terre" class="img-rounded"
+ class="media-object" style="width:100px">
+    </div>
+    <div class="media-body media-heading bg-info">
+      <h1><b><center>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN</center></b><br><b><center> PROJECT HUB</center></b></h1>
+    </div>
+  </div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+       <ul class="nav navbar-nav">
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="adminlogin.html"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+      <li><a href="reg.html"><span class="glyphicon glyphicon-user"></span> Student</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+  </div>
+</nav>
+<form action="adminaction.jsp">
+<div class="jumbotron text-centerbg-info"><h1>PROJECT DETAILS</h1></div><center>
+	<table>
+		<tbody>
+			<tr><th><h4> PROJECT TITLE:</h4></th><td><input type="text" name="project_title"></td></tr>
+			<tr><th><h4>THEME:</h4></th><td><textarea name="theme" cols=22 rows=3></textarea></td></tr>
+
+		<tr>
+			<th>
+	<h4> BRANCH: </h4></th><td><select name="branch">
+					<option selected> All</option>
+					<option value="IT">IT</option>
+					<option value="CSE">CSE</option>
+					<option value= "EEE">EEE</option>
+					<option value="ECE">ECE</option>
+					<option value="CIVIL">Civil</option>
+					<option value="MechNICAL">Mechanical</option>
+				</select></td></tr><br>
+				<tr><th><h4> PROJECT LEADER:</h4></th><td><input type="text" name="project_leader"></td></tr>
+	<tr><th><h4> BATCH: </h4></th><td><select name="batch">
+			<option selected>Select</option>
+			<option value=2020>2020</option>
+			<option value=2021>2021</option>
+			<option value=2022>2022</option>
+			<option value=2023>2023</option>
+			<option value=2024>2024</option>
+			<option value=2025>2025</option>
+		</select></td></tr><br>
+	<tr><th><h4> TECHNOLOGIES: </h4></th>
+		<td><select name="technologies">
+			<option selected> All</option>
+			<option value="HTML">HTML</option>
+			<option value="CSS">CSS</option>
+			<option value="JSP">JSP</option>
+			<option value="RFTags">RFTags</option>
+			<option value="JDBC">JDBC</option>
+			<option value="AI">AI</option>
+			<option value="ML">ML</option>
+</select></td></tr>
+<br>
+
+<tr>
+	<td><input type="submit" value="SUBMIT"></td></tr>
+
+		</tbody>	
+		</table>	
+</center>
+</form>
+</body>
+</html>
